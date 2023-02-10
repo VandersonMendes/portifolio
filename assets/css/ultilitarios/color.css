@@ -1,0 +1,10 @@
+:root{
+    --blueExt:#0A192F;
+    --grenn:#64FFDA;
+    --blueLight:#8892B0;
+    --roxoLigth:#8892B0;
+    --white:#ffff;
+}
+.green{
+    color: var(--grenn);
+}

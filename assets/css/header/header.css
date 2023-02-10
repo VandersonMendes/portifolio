@@ -1,0 +1,31 @@
+.header_bg{
+    backdrop-filter: blur(20px);
+    background: rgba(158, 158, 158, 0.11);
+}
+.header{
+    padding: 1.4rem;
+}
+.nav_Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.lista_header{
+    display: flex;
+    flex-direction: row;
+}
+.lista_header li a{
+    margin-left: 2rem;
+    color: var(--white);
+    position: relative;
+}
+.lista_header li a::before{
+    content: "a";
+    width: 100%;
+    height: 3px;
+    background-color: var(--green);
+    bottom: -2px;
+    display:block;
+    position: absolute;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font-dow/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Mono";
+    src: url("../../font-dow/RobotoMono-VariableFont_wght.ttf");
+}
+.montserrat{
+    font-family: "Montserrat";
+}
+.mono{
+    font-family: "Mono";
+}
+.font-M{
+    font-size: 2rem;
+}
+.font-P{
+    font-size: 1rem;
+}

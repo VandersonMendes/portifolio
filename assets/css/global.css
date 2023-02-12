@@ -7,10 +7,13 @@ body{
     background-color: var(--blueExt);
 }
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin:  0 auto;
 }
 a, li{
     text-decoration: none;
     list-style: none;
+}
+img{
+    width: 100%;
 }

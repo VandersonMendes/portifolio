@@ -1,10 +1,20 @@
 :root{
     --blueExt:#0A192F;
     --grenn:#64FFDA;
-    --blueLight:#8892B0;
+    --blueLight:#CCD6F6;
     --roxoLigth:#8892B0;
     --white:#ffff;
+    --blueLight: rgb(89, 148, 236);
 }
 .green{
     color: var(--grenn);
+}
+.white{
+    color: var(--white);
+}
+.blueLight{
+    color: var(--blueLight);
+}
+.roxoLigth{
+    color: var(--roxoLigth);
 }

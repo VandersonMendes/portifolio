@@ -3,6 +3,10 @@
     src: url("../../font-dow/Montserrat-VariableFont_wght.ttf");
 }
 @font-face {
+    font-family: "Centra";
+    src: url("../../font-dow/CentraNo2-Medium.ttf");
+}
+@font-face {
     font-family: "Mono";
     src: url("../../font-dow/RobotoMono-VariableFont_wght.ttf");
 }
@@ -12,8 +16,11 @@
 .mono{
     font-family: "Mono";
 }
+.centra{
+    font-family: "centra";
+}
 .font-GG{
-    font-size: 2.7rem;
+    font-size: 4rem;
 }
 .font-G{
     font-size: 2rem;

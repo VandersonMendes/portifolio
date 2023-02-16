@@ -1,4 +1,13 @@
-
+@keyframes show-Bottom {
+  from{
+    opacity: 0;
+    transform: translate3d(-40px, 0px, 0px 0px);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
 @keyframes show-Right {
     from {
       opacity: 0;
@@ -9,3 +18,22 @@
       transform: translate3d(0px, 0, 0);
     }
   }
+.js [data-anime="scroll"]{
+  opacity: 0;
+  transform: translate3d(0px, -40px, 0);
+  transition: 1s ease-in-out;
+}
+.js [data-anime="scroll"].ativo{
+  opacity: 1;
+}
+@keyframes float {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-40px);
+  }
+    0%{
+      transform: translateY(0px);
+    }
+}

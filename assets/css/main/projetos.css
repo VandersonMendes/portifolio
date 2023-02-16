@@ -1,0 +1,64 @@
+.Conteudoprojeto{
+    margin: 0 5rem;
+}
+.Conteudoprojeto h1{
+    margin-bottom: 2rem;
+}
+.projetosCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.projetosCard p{
+    margin: 0.5rem 2%;
+    margin-bottom: 2rem;
+}
+.projetosCard h3{
+    margin: 0.8rem 2%;
+}
+.projetosCard .compartilha{
+    border-radius: 10px;
+    transition: 1s all;
+    color: var(--white);
+}
+.projetosCard .compartilha:hover{
+    transform: scale(0.9);
+    opacity: 0.4;
+    transition: 1s all;
+}
+.projetosCard div a img{
+    width: 13% !important;
+    margin: 0 11% !important;
+}
+.projetosCard div{
+    width: 100%;
+    padding-bottom: 2rem;
+    background-color: #05112480;
+    border-radius: 20px;
+
+}
+.projetosCard div img{
+    width:100%;
+    padding: 0 5rem;
+    transition: 1s all;
+}
+.projetosCard div img:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+}
+@media (max-width:900px) {
+    .projetosCard div img{
+        width: 90%;
+    }
+}
+@media (max-width:700px) {
+    .projetosCard{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .projetosCard div img{
+        width: 60%;
+    }
+}

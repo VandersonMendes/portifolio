@@ -3,17 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: var(--blueExt);
-}
+
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin:  0 auto;
 }
 a, li{
     text-decoration: none;
     list-style: none;
+    color: var(--white);
+    text-align: center;
 }
 img{
     width: 100%;
+}
+.app{
+    background-color: var(--blueExt);
+}
+.js .app.hiden{
+    display: none;
 }

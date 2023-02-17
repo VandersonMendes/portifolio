@@ -5,6 +5,10 @@
     --roxoLigth:#8892B0;
     --white:#ffff;
     --blueLight: rgb(89, 148, 236);
+    --red:rgba(255, 4, 4, 0.397);
+}
+.red{
+    color: var(--red);
 }
 .green{
     color: var(--grenn);

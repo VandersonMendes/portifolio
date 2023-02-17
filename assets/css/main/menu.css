@@ -1,9 +1,11 @@
 .menuContainer{
-    display: none;
+    display: flex;
+    opacity: 0;
     justify-content: center;
+    transition: all .2s ease-in-out 200ms;
 }
 .menuContainer.active{
-    display: flex;
+    opacity: 1;
 }
 .list_menu{
     display: flex;

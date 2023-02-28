@@ -38,6 +38,9 @@
     border-radius: 6px;
     transition: 300ms all;
 }
+.redeSociaisHome div:last-child{
+    border:2px solid var(--purple);
+}
 .redeSociaisHome div:hover{
     opacity: 0.4;
     transform: scale(0.9);

@@ -1,0 +1,85 @@
+.contato{
+    height: 60vh;
+}
+.contato h1{
+    margin-left: 2rem;
+}
+.contatoGrid{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+.form h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contatoGrid .form {
+    border: 3px solid rgba(67, 117, 151, 0.185);
+    border-radius: 15px;
+    padding: 2rem 3rem ;
+}
+.contatoGrid form input,textarea{
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    margin: 0.5rem 0;
+    width: 30vw;
+    border: 2px solid var(--grenn);
+    border-radius: 5px;
+}
+.contatoGrid form button{
+    padding: 0.4rem 5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: var(--grenn);
+}
+.contatoGrid form button:hover{
+    transform: scale(1.1);
+    transition: all .1s ease-in-out 200ms;
+}
+
+/* Redes de Contato */
+.redesContato{
+    border: 3px solid rgba(67, 117, 151, 0.185);
+    padding: 1rem;
+    border-radius: 15px;
+}
+.redesContato h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.redesContato  li a{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 300ms all;
+    margin-bottom: 1rem;
+}
+.redesContato li:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+.redesContato img{
+    width: 15%;
+    padding-right: 10px;
+}
+@media (max-width:700px) {
+    .contatoGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .contatoGrid form input,textarea{
+        width: 70vw;
+
+    }
+}
+/* FOOTERR */
+.footer{
+    text-align: center;
+    z-index: 2000;
+}

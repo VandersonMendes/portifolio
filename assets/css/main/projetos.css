@@ -1,3 +1,6 @@
+.projeto{
+    height: 100vh;
+}
 .projetosGrid{
     display: flex;
     gap: 3rem;
@@ -7,16 +10,24 @@
     margin-left: 2rem;
 }
 .projetosGrid .card{
-   background-color:#0d1f3a33 ;
+   background-color:#03255833 ;
     border-radius: 20px;
     cursor: pointer;
     padding: 2rem 1rem;
+}
+
+.projetosGrid .card:hover{
+    transform: scale(0.98);
+    transition: all .2s ease-in-out 100ms;
 }
 .projetosGrid .card img{
     max-width: 100%;
     width: 100%; 
      margin: 0;
  }
+ .projetosGrid .card img:hover{
+    opacity: 0.8;
+}
 .projetosGrid .card .text{
     margin: 0 2rem;
     max-width: 600px;
@@ -34,30 +45,7 @@
     margin-bottom: 20rem;
     background-color:#0d1f3a33 ;
 }
-.projetosEmbreve.ativo{
-    display: grid;
-}
-.projetosEmbreve .card .text{
-    margin:0 2rem;
-    max-width: 600px;
-    margin-top: 6rem;
-}
-.projetosEmbreve .card .text h3{
-    margin: 1rem 0rem;
-}
-.projetosEmbreve .card .text p{
-    margin-bottom: 2rem;
-}
-.emBreve h1{
-    transform:rotate(340deg);
-    text-align: center;
-    cursor: pointer;
-    transition: 1s all;
-}
-.emBreve h1:hover{
-    transform:rotate(320deg);
-    transition: 1s all;
-}
+
 .vizualizar{
     border: 2px solid var(--roxoLigth);
     padding: 5px 20px;
@@ -65,11 +53,19 @@
     transition: 1s all;
     border-radius: 10px;
 }
+.vizualizar:hover{
+ letter-spacing: 1px;
+}
 .vizualizar .link{
      margin-right: 1rem;
 }
 @media (max-width:700px) {
     .projetosGrid{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
+    .projetosGrid .card{
+        padding: 0 1rem 3rem 1rem;
+    }
+
 }

@@ -63,7 +63,7 @@
                         <h1 class="green centra font-letterSpacing2 font-GG">Projetos</h1>
                         <div class="projetosGrid">
                             <div class="card">
-                                <img src="assets/img/projeto2.png" alt="">
+                                <a href="https://vandersonmendes.github.io/buscarCep/" target="_blank"><img src="assets/img/projeto2.png" alt=""></a>
                                 <div class="text">
                                     <h3 class="font-M mono blueLight font-weightGG">Buscar CEP
                                     </h3>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <img src="assets/img/projeto1.png" alt="Projeto animais fantasticos">
+                                <a href="https://vandersonmendes.github.io/animais-fantasticos/" target="_blank"><img src="assets/img/projeto1.png" alt="Projeto animais fantasticos"></a>
                                 <div class="text">
                                     <h3 class="font-M mono blueLight font-weightGG">Animais Fantásticos</h3>
                                     <p class="font-P  centra roxoLigth">Projeto desenvolvido durante o Curso de JavaScript ES6+ na Origamid, <span class="blueLight">usando as tecnologia JavaScript HTML CSS</span></p>
@@ -82,7 +82,54 @@
                         </div>
                     </div>
                 </section>
+
+                <!-- CONTATO -->
+                <section class="contato" id="contato" data-anime="">
+                    <div class="conteudo">
+                        <h1 class="green centra font-letterSpacing2 font-GG">Contato</h1>
+                        <div class="contatoGrid">
+                            <div class="form">
+                                <h1 class="font-M blueLight centra">Envie uma Mensagem</h1>
+                                <form action="https://api.staticforms.xyz/submit" method="post" class="white mono">
+                                    <!-- Replace with accesKey sent to your email -->
+                                    <input type="hidden" name="accessKey" value="06a6cae9-e04f-4980-b99e-f46bcd5de39a"> <!-- Required -->
+                                    <input type="hidden" name="redirectTo" value="#"> 
+                                    <label for="name">Nome:</label>
+                                    <input type="text" name="name"> <!-- Optional -->
+                                    <label for="email" class="email">Email: </label>
+                                    <input type="text" name="email"> <!-- Optional -->
+                                    <label for="message">Mensagem</label>
+                                    <textarea name="message"></textarea> <!-- Optional -->
+                                    <!-- If you want form to redirect to a specific url after submission -->
+                                    <button type="submit" value="Enviar" class="montserrat  black font-weightGG">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="redesContato mono">
+                                <h1 class="font-M blueLight centra">Entre contato comigo: </h1>
+                                <ul class="font-p">
+                                    <li>
+                                        <a href="https://github.com/VandersonMendes"><img src="assets/img/icons8-linkedin-circundado (2).svg" alt=""><span>Linkedin</span></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/vanderson-dias-mendes-184003238/"><img src="assets/img/github-mark-white.svg" alt=""><span>GitHub</span></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.instagram.com/vanderson.mends/"><img src="assets/img/instagram-logo-svgrepo-com.svg" alt="Instagram"><span>Instagram</span></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><img src="assets/img/email-svgrepo-com (1).svg" alt="Instagram"><span>vandersondiasmendes@gmail.com</span></a>
+                                    </li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
+            <footer class="footer font-P white centra">Desenvovido por Vanderson Dias Mendes @2023</footer>
      </section>
      <script type="module" src="Js/modules/script.js"></script>
 </body>
